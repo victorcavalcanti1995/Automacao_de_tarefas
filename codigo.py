@@ -27,7 +27,6 @@ pyautogui.press("enter")
 time.sleep(3) 
 
 # Passo 3: Abrir a base de dados (importar o arquivo) (para  saber quais produtos cadastrar)
- # - pip install pandas openpyxl (o openpyxl permite o pandas a trabalhar com base de dados em excel se nessesário)
 import pandas 
 tabela = pandas.read_csv("produtos.csv")
 print(tabela)
